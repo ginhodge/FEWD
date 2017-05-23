@@ -1,0 +1,64 @@
+body {
+	font-family: sans-serif;
+	color: white;
+	font-weight: 16px;
+}
+
+header {
+	background-color: #C2C1C2;
+	height: 70px;
+	margin: auto;
+}
+
+#center p {
+	padding: 10px;
+}
+
+main, .container {
+	width: 900px;
+	margin: auto;
+}
+
+#left {
+	width: 50%;
+	float: left;
+	background-color: #F7717D;
+	height: 550px;
+}
+
+#right {
+	width: 50%;
+	float: right;
+	background-color: #B10F2E;
+	height: 550px;
+}
+
+#below {
+	height: 100px;
+	width: 900px;
+	margin: auto;
+	clear: both;
+}
+
+div div {
+	height: 100px;
+	width: 33.33%;
+	background-color: #7D1128;
+	float: left;
+}
+
+div div:nth-child(2) {
+	background-color: #42213D;
+}
+
+footer p {
+	margin: 0;
+	padding: 15px;
+}
+
+footer {
+	background-color: green;
+	height: 70px;
+	clear: both;
+	margin: auto;
+}
