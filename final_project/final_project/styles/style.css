@@ -1,0 +1,38 @@
+body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+
+nav {
+  height: 50px;
+  width:100%;
+}
+
+nav h1 {
+  margin: 15px auto;
+  text-align: center;
+}
+
+#streetview {
+  height: 900px;
+  width: 90%;
+  float: left;
+}
+
+#choices {
+  float: right;
+
+}
+
+button{
+  background-color: grey;
+  border: none;
+  width: 180px;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 auto 10px;
+  padding: 5px 0;
+  display: block;
+}
